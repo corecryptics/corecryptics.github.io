@@ -1,0 +1,28 @@
+header {
+    padding: 10px 20px;
+    background-color: rgb(224, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav {
+    margin: 5px 0;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #69709B;
+    font-weight: 400;
+
+  }
