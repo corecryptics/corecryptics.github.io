@@ -1,11 +1,18 @@
 header {
     padding: 10px 20px;
-    background-color: rgb(224, 222, 222);
+    background-color: #2F3663;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #69709B;
+    margin: 0;
+  }
+  
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -25,4 +32,31 @@ header nav ul {
     color: #69709B;
     font-weight: 400;
 
+  }
+
+  footer {
+    padding: 10px 20px;
+    background-color: #2F3663;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  footer a {
+    color: #69709B;
+    text-decoration: none;
+  }
+
+  footer h3 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    color: #69709B;
+  }
+  footer nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #69709B;
+    font-weight: 400;
   }
