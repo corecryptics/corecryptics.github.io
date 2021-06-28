@@ -12,7 +12,7 @@ header {
     color: #69709B;
     margin: 0;
   }
-  
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +33,16 @@ header nav ul {
     font-weight: 400;
 
   }
+
+  .aboutme {
+    font-size: 50px;
+    color: #024e56;
+    border-right: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    float: left;}
 
   footer {
     padding: 10px 20px;
